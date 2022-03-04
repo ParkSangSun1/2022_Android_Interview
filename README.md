@@ -188,3 +188,16 @@
 #### View : Activity, Fragment, CustomView, Dialog, Toast, Snackbar, Menu 등의 UI 컴포넌트
 #### ViewModel : View 와 Model 사이의 매개체 역할을 함
 #### <br>
+
+## MVP 디자인 패턴이란?
+#### 모델 - 뷰 - 프레젠터로 구성
+#### UI(View)와 로직(Model)을 분리하고 서로 간에 상호작용을 다른 객체(Presenter)에 그 역할을 줌으로써, 서로의 영향(의존성)을 최소화하는 것
+#### MVC와 다르게 코드가 깔끔해짐
+#### Model과 View의 결합도가 낮아 확장성이 개선됨
+#### 어플리케이션이 복잡해질수록 View와 Presenter 사이의 의존성이 강해지는 문제가 있음
+#### <br>
+#### 개념적인 의미
+#### Model : 프로그램 내부적으로 쓰이는 데이터를 저장하고, 처리하는 역할(비즈니스 로직)
+#### View : UI를 담당 (Activity, Fragment 등)
+#### Presenter : Model과 View사이의 매개체, 인터페이스를 통해 상호작용
+#### <br>
