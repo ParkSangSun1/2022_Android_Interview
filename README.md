@@ -177,7 +177,14 @@
 ## MVVM 디자인 패턴이란?
 #### MVP에서 파생됨
 #### 모델 - 뷰 - 뷰모델 각각의 기능에 따라 분리하여 코드를 작성
+#### <br>
+#### 개념적인 의미
 #### Model : 데이터와 데이터에 관련된 행위를 모두 합쳐 Model 이라 부름
 #### View : 용자에게 화면으로 보여지는 모든 구조, 레이아웃을 의미
 #### ViewModel : View 의 추상화된 형태, View 에 보여져야하는 데이터와 명령들을 가지고 있음
+#### <br>
+#### 안드로이드에서의 의미
+#### Model : Network, DB, SharedPreferences 등 다양한 Data Source 로부터 필요한 데이터를 준비
+#### View : Activity, Fragment, CustomView, Dialog, Toast, Snackbar, Menu 등의 UI 컴포넌트
+#### ViewModel : View 와 Model 사이의 매개체 역할을 함
 #### <br>
