@@ -201,3 +201,15 @@
 #### View : UI를 담당 (Activity, Fragment 등)
 #### Presenter : Model과 View사이의 매개체, 인터페이스를 통해 상호작용
 #### <br>
+
+## MVC 디자인 패턴이란?
+#### 모델 - 뷰 - 컨트롤러로 구성
+#### 컨트롤러와 View는 1:n 구조
+#### 컨트롤러는 View를 선택할 뿐 직접 업데이트 하지는 않음 (View는 컨트롤러를 모름)
+#### View와 Model 사이의 의존성이 높아 유지보수가 어려움
+#### <br>
+#### 개념적인 의미
+#### Model : 어플리케이션에서 사용되는 데이터와 그 데이터를 처리하는 부분입니다.
+#### View : UI를 담당 (Activity, Fragment 등)
+#### Controller : 사용자의 입력(Action)을 받고 처리하는 부분
+#### <br>
