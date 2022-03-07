@@ -217,3 +217,9 @@
 ## AAC란?
 #### 테스트와 유지보수가 쉬운 앱을 디자인할 수 있도록 돕는 라이브러리의 모음
 #### <br>
+
+## MVVM ViewModel vs AAC ViewModel 비교
+### 차이점
+#### MVVM ViewModel : View와 Model 사이에서 데이터를 관리해주고 바인딩 해주는 역할
+#### AAC ViewModel : 수명 주기를 고려하여 UI 관련 데이터를 저장하고 관리
+#### <br>
