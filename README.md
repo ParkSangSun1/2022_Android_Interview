@@ -177,10 +177,6 @@
 
 
 
-
-
-
-
 #### <br>
 # 디자인 패턴, 아키텍처 부분
 
@@ -259,4 +255,22 @@
 
 ## Blocking vs 동기, Non-blocking vs 비동기 비교
 #### 서로 비슷하지만 다름(위에 정리된 내용 참고)
+#### <br>
+
+## launch vs async 비교
+### 공통점
+#### Main Thread 를 Unblocking 한 채 { } 구문 내 작업을 수행
+#### <br>
+### 차이점
+#### launch : 반환값 없음
+#### async : 반환값이 존재(Deferred)
+#### <br>
+
+## join vs await 비교
+### 공통점
+#### 작업이 끝날 때까지 현재 코루틴에게 기다리라고 명령하는 함수
+#### <br>
+### 차이점
+#### join : Job(launch) 타입에서 사용
+#### await : Deferred(async) 타입에서 사용
 #### <br>
