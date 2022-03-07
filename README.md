@@ -165,6 +165,21 @@
 #### Glide는 바로 768x432크기로 메모리에 가져와서 ImageView로 할당 시키기때문에 메모리 사용량이 적음
 #### <br>
 
+## AAC란?
+#### 테스트와 유지보수가 쉬운 앱을 디자인할 수 있도록 돕는 라이브러리의 모음
+#### <br>
+
+## MVVM ViewModel vs AAC ViewModel 비교
+### 차이점
+#### MVVM ViewModel : View와 Model 사이에서 데이터를 관리해주고 바인딩 해주는 역할
+#### AAC ViewModel : 수명 주기를 고려하여 UI 관련 데이터를 저장하고 관리
+#### <br>
+
+## Coroutine이란?
+#### 안드로이드에서 비동기처리를 도와주는 경량 쓰레드 라이브러리
+#### 쓰레드에 비해 굉장히 가벼움
+#### <br>
+
 
 
 #### <br>
@@ -212,14 +227,4 @@
 #### Model : 어플리케이션에서 사용되는 데이터와 그 데이터를 처리하는 부분입니다.
 #### View : UI를 담당 (Activity, Fragment 등)
 #### Controller : 사용자의 입력(Action)을 받고 처리하는 부분
-#### <br>
-
-## AAC란?
-#### 테스트와 유지보수가 쉬운 앱을 디자인할 수 있도록 돕는 라이브러리의 모음
-#### <br>
-
-## MVVM ViewModel vs AAC ViewModel 비교
-### 차이점
-#### MVVM ViewModel : View와 Model 사이에서 데이터를 관리해주고 바인딩 해주는 역할
-#### AAC ViewModel : 수명 주기를 고려하여 UI 관련 데이터를 저장하고 관리
 #### <br>
