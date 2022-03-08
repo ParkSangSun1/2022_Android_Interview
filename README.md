@@ -55,6 +55,15 @@
 #### Android OS가 XML을 파싱하여 데이터를 구조화함
 #### <br>
 
+## Activity vs Fragment 비교
+#### **공통점**
+#### 둘 다 View를 표현해줌
+#### <br>
+#### **차이점**
+#### Activity : 가장 바닥 역할을 함
+#### Fragment : 액티비티에 붙음
+#### <br>
+
 
 
 
